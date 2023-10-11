@@ -1,23 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/src/baytona-alt.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Baytona Development</title>
-    <script type="module" crossorigin src="/assets/index.be8f3620.js"></script>
-    <link rel="stylesheet" href="/assets/index.69fa5d9e.css">
-  </head>
-  <body class="font-inter antialiased bg-black text-gray-900 tracking-tight">
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <script>
-        if (localStorage.getItem('sidebar-expanded') == 'true') {
-            document.querySelector('body').classList.add('sidebar-expanded');
-        } else {
-            document.querySelector('body').classList.remove('sidebar-expanded');
-        }
-    </script>   
-    <div id="root"></div>
-    
-  </body>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Switch Template</title>
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+<body class="is-boxed has-animations">
+    <div class="body-wrap boxed-container">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                            <a href="#">
+								<img class="header-logo-image asset-light" src="dist/images/logo-light.svg" alt="Logo">
+								<img class="header-logo-image asset-dark" src="dist/images/logo-dark.svg" alt="Logo">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-inner">
+						<div class="hero-copy">
+	                        <h1 class="hero-title mt-0">Baytona Solutions</h1>
+	                        <p class="hero-paragraph">Our products are quality over quantity, and performance is always in mind.</p>
+	                        <div class="hero-cta">
+								<a class="button button-primary" href="https://baytona.tebex.io/">Shop Now</a>
+								<div class="lights-toggle">
+								</div>
+							</div>
+						</div>
+						<div class="hero-media">
+							<div class="header-illustration">
+								<img class="header-illustration-image asset-light" src="dist/images/header-illustration-light.svg" alt="Header illustration">
+								<img class="header-illustration-image asset-dark" src="dist/images/header-illustration-dark.svg" alt="Header illustration">
+							</div>
+							<div class="hero-media-illustration">
+								<img class="hero-media-illustration-image asset-light" src="dist/images/hero-media-illustration-light.svg" alt="Hero media illustration">
+								<img class="hero-media-illustration-image asset-dark" src="dist/images/hero-media-illustration-dark.svg" alt="Hero media illustration">
+							</div>
+							<div class="hero-media-container">
+								<img class="hero-media-image asset-light" src="dist/images/hero-media-light.svg" alt="Hero media">
+								<img class="hero-media-image asset-dark" src="dist/images/hero-media-dark.png" alt="Hero media">
+							</div>
+						</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="features section">
+                <div class="container">
+					<div class="features-inner section-inner has-bottom-divider">
+						<div class="features-header text-center">
+							<div class="container-sm">
+								<h2 class="section-title mt-0">What We Do</h2>
+	                            <p class="section-paragraph">We offer high end scripts for the CFX.re Platform (RedM & FiveM), we compile feature rich systems with performant code so you don't have to think twice about performance.</p>
+								<div class="features-image">
+									<img class="features-illustration asset-dark" src="dist/images/features-illustration-dark.svg" alt="Feature illustration">
+									<img class="features-box asset-dark" src="dist/images/features-box-dark.svg" alt="Feature box">
+									<img class="features-illustration asset-dark" src="dist/images/features-illustration-top-dark.svg" alt="Feature illustration top">
+
+									<img class="features-illustration asset-light" src="dist/images/features-illustration-light.svg" alt="Feature illustration">
+									<img class="features-box asset-light" src="dist/images/features-box-light.svg" alt="Feature box">
+									<img class="features-illustration asset-light" src="dist/images/features-illustration-top-light.svg" alt="Feature illustration top">
+								</div>
+							</div>
+                        </div>
+                        <div class="features-wrap">
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img class="asset-light" src="dist/images/feature-01-light.svg" alt="Feature 01">
+										<img class="asset-dark" src="dist/images/feature-01-dark.svg" alt="Feature 01">
+                                    </div>
+									<div class="feature-content">
+                                    	<h3 class="feature-title mt-0">Script Development</h3>
+                                    	<p class="text-sm mb-0">What we specialize in, we have been making high end scripts in Lua/Js for 6+ years!</p>
+									</div>
+								</div>
+                            </div>
+							<div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img class="asset-light" src="dist/images/feature-02-light.svg" alt="Feature 02">
+										<img class="asset-dark" src="dist/images/feature-02-dark.svg" alt="Feature 02">
+                                    </div>
+									<div class="feature-content">
+                                    	<h3 class="feature-title mt-0">Web/UI Development</h3>
+                                    	<p class="text-sm mb-0">Although Web/UI work is something that we recently started providing, we confidently create performant & visually pleasing UI's & Web Pages using frameworks like React & VueJS.</p>
+									</div>
+								</div>
+                            </div>
+							<div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+										<img class="asset-light" src="dist/images/feature-03-light.svg" alt="Feature 03">
+										<img class="asset-dark" src="dist/images/feature-03-dark.svg" alt="Feature 03">
+                                    </div>
+									<div class="feature-content">
+                                    	<h3 class="feature-title mt-0">Freelance Work</h3>
+                                    	<p class="text-sm mb-0">We've been on the map for about 2 years offering services at competitive rates, need something you haven't seen before? Look below!.</p>
+									</div>
+								</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+			<section class="cta section">
+                <div class="container-sm">
+                    <div class="cta-inner section-inner">
+                        <div class="cta-header text-center">
+                            <h2 class="section-title mt-0">Need Something Custom?</h2>
+                            <p class="section-paragraph">If you're looking for something you just can't find anywhere, you can reach out to us on discord through a ticket and we'll give you a free quote!</p>
+							<div class="cta-cta">
+								<a class="button button-primary" href="https://discord.gg/Cgu9HzEn4f">Join the Discussion</a>
+							</div>
+					    </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer has-top-divider">
+            <div class="container">
+                <div class="site-footer-inner">
+                    <div class="brand footer-brand">
+                        <a href="#">
+							<img class="asset-light" src="dist/images/logo-light.svg" alt="Logo">
+							<img class="asset-dark footer-logo-dark" src="dist/images/logo-dark.svg" alt="Logo">
+                        </a>
+                    </div>
+                    <ul class="footer-links list-reset">
+                        <li>
+                            <a href="mailto:josh@refx.gg">Contact</a>
+                        </li>
+                        <li>
+                            <a href="https://baytona.tebex.io/terms/checkout">Legal Stuff</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-social-links list-reset">
+                        <li>
+                            <a href="https://discord.gg/Cgu9HzEn4f">
+                                <span class="screen-reader-text">Discord</span>
+								<svg width="16" height="16" viewBox="0 -28.5 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+									<g>
+										<path d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z" fill="#fff" fill-rule="nonzero">
+										</path>
+									</g>
+								</svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/baytona999">
+                                <span class="screen-reader-text">Twitter</span>
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#FFF"/>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://baytona.tebex.io">
+                                <span class="screen-reader-text">Store</span>
+								<svg fill="#fff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+									 width="16" height="16" viewBox="0 0 902.86 902.86"
+									 xml:space="preserve">
+									 <g>
+										<g>
+											<path d="M671.504,577.829l110.485-432.609H902.86v-68H729.174L703.128,179.2L0,178.697l74.753,399.129h596.751V577.829z
+												M685.766,247.188l-67.077,262.64H131.199L81.928,246.756L685.766,247.188z"/>
+											<path d="M578.418,825.641c59.961,0,108.743-48.783,108.743-108.744s-48.782-108.742-108.743-108.742H168.717
+												c-59.961,0-108.744,48.781-108.744,108.742s48.782,108.744,108.744,108.744c59.962,0,108.743-48.783,108.743-108.744
+												c0-14.4-2.821-28.152-7.927-40.742h208.069c-5.107,12.59-7.928,26.342-7.928,40.742
+												C469.675,776.858,518.457,825.641,578.418,825.641z M209.46,716.897c0,22.467-18.277,40.744-40.743,40.744
+												c-22.466,0-40.744-18.277-40.744-40.744c0-22.465,18.277-40.742,40.744-40.742C191.183,676.155,209.46,694.432,209.46,716.897z
+												M619.162,716.897c0,22.467-18.277,40.744-40.743,40.744s-40.743-18.277-40.743-40.744c0-22.465,18.277-40.742,40.743-40.742
+												S619.162,694.432,619.162,716.897z"/>
+										</g>
+									 </g>
+								</svg>
+
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="footer-copyright">&copy; 2023 Baytona Solutions, all rights reserved</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="dist/js/main.min.js"></script>
+</body>
 </html>
